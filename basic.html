@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINI Project</title>
+    <style>
+        body{
+            text-align: center;
+            margin-top: 100px;
+            border:2px solid black;
+            margin:100px 500px 1000px 500px;
+            background-color: cornsilk;           
+        }
+        .container{
+            border-bottom: 2px  groove black;
+            border-radius: 10%;
+        }   
+        
+        button{
+            padding: 10px;
+            border-radius: 50%;
+        }
+        button:hover{
+            background-color: lavender;
+        }
+        #msg-input{
+            border:2px solid black;
+            border-radius: 10px;
+            width:250px;
+            height: 20px;
+        }
+        #img1{
+            position: absolute;
+             left:510px;
+            top: 180px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2><u>TEXT MESSAGE</u></h2>
+    
+    <pre> </pre>
+    <label>ENTER MESSAGE</label>
+    <pre></pre>
+    <label>📧</label> 
+    <input type="text" id="msg-input" placeholder="ENTER YOUR WORDS">
+    <pre> </pre>
+    <button id="click" onclick="getMessage()">Submit</button>
+    <p id="demo"></p>
+    </div>
+    <div id="img1">
+        <img src="cute.avif" height="100px" width="100px">
+    </div>
+   
+</body>
+<script src="int.js"></script>
+</html>
